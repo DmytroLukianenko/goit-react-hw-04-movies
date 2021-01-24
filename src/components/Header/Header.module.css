@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+
+  padding: 10px 24px;
+
+  text-align: center;
+
+  border-bottom: 1px solid black;
+  box-shadow: 0px 5px 14px -1px #000000;
+
+  background-color: rgb(48, 57, 136);
+}
+
+.link {
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+
+  background-color: transparent;
+  color: black;
+  border: none;
+  outline: none;
+}
+
+.link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.activeLink {
+    color: rgb(168, 96, 38);
+  
+  font-weight: 700;
+}

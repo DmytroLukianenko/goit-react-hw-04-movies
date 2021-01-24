@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.image {
+  display: block;
+
+  max-width: 200px;
+
+  margin-right: 30px;
+}
+
+.content {
+  font-family: Roboto, sans-serif;
+}
+
+.category {
+  font-weight: 500;
+}
+
+.link {
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+
+  background-color: transparent;
+  color: rgb(71, 5, 158);
+  border: none;
+  outline: none;
+}
+
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.activeLink {
+   color: rgb(168, 96, 38);
+  font-weight: 700;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.nav {
+  width: 100%;
+
+  text-align: center;
+
+  padding-bottom: 16px;
+  border-bottom: 1px solid black;
+}
